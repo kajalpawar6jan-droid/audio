@@ -1003,6 +1003,18 @@
 		)
 	)
 	(junction
+		(at 151.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13141d52-c7bd-4b2f-9960-dc5feac23168")
+	)
+	(junction
+		(at 151.13 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647db54d-ea7c-4982-9bbb-98de1ae0c2e0")
+	)
+	(junction
 		(at 116.84 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1072,6 +1084,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 80.01) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e76fc75-9459-4ed5-9e83-40e354dbf0de")
+	)
+	(wire
+		(pts
 			(xy 109.22 67.31) (xy 116.84 67.31)
 		)
 		(stroke
@@ -1102,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 67.31) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4595d5f7-77af-4b4f-94e6-d0efb821b807")
+	)
+	(wire
+		(pts
 			(xy 90.17 80.01) (xy 90.17 86.36)
 		)
 		(stroke
@@ -1109,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "4b9b244a-f42f-49ab-b745-cba315e13332")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e72c48c-3bdc-4516-982a-cd956e3db9ac")
 	)
 	(wire
 		(pts
@@ -1159,6 +1201,16 @@
 			(type default)
 		)
 		(uuid "738d3431-4b85-4716-9246-3be21c70549b")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1558a4-cf8c-48b7-b66f-f1dcf80c8f30")
 	)
 	(wire
 		(pts
@@ -1470,6 +1522,88 @@
 			(project "audio"
 				(path "/2ec365ba-e228-4d72-8dce-07120289074f"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "402d9b08-49a3-4427-a4a0-e8f2677fc6ff")
+		(property "Reference" "R2"
+			(at 171.45 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 171.45 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
+			(at 170.688 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e139e72c-2209-4144-9cde-259eb2b0b0e1")
+		)
+		(pin "1"
+			(uuid "9d857bcc-ad28-4950-9422-d32d905dc544")
+		)
+		(instances
+			(project "audio"
+				(path "/2ec365ba-e228-4d72-8dce-07120289074f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
