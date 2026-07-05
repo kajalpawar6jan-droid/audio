@@ -1,0 +1,49 @@
+# KiCad project source files (keep these)
+# *.kicad_pro
+# *.kicad_sch
+# *.kicad_pcb
+# *.kicad_sym
+# *.pretty/
+# *.kicad_mod
+
+# Lock files
+*.lck
+
+# Autosave and backup files
+*-backups/
+*_autosave-*
+*.bak
+*.bck
+*.tmp
+*.temp
+
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# Netlists and intermediate files
+*.net
+*.xml
+
+# Drill and fabrication outputs
+*.gbr
+*.gbrjob
+*.drl
+*.map
+*.pos
+*.rpt
+*.csv
+*.pdf
+*.step
+*.stp
+
+# BOMs (ignore if generated automatically)
+bom/
+*.bom
+
+# 3D export files (ignore if generated)
+*.wrl
+
+# Cache directories
+__pycache__/
