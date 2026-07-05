@@ -1009,6 +1009,12 @@
 		(uuid "7191cda1-e783-453d-9f9e-c052963552f3")
 	)
 	(junction
+		(at 134.62 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93f5122c-49ff-4af7-b799-9c9628ffb23f")
+	)
+	(junction
 		(at 81.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1025,6 +1031,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3851dd5-4151-423b-8949-7770bb332052")
+	)
+	(junction
+		(at 134.62 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce0e90fb-071a-4080-ac9e-65abb09ee149")
 	)
 	(junction
 		(at 90.17 67.31)
@@ -1080,6 +1092,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 67.31) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbeea7d-4f3b-41f0-9342-f12782d7a846")
+	)
+	(wire
+		(pts
 			(xy 90.17 80.01) (xy 90.17 86.36)
 		)
 		(stroke
@@ -1097,6 +1119,16 @@
 			(type default)
 		)
 		(uuid "5b306a6a-09a6-403a-a5ad-853eb70d3209")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6820beeb-5506-4b57-9281-0e7829be5b1e")
 	)
 	(wire
 		(pts
@@ -1200,6 +1232,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 78.74) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e93717-106f-46fa-bbaf-15771b4a1444")
+	)
+	(wire
+		(pts
 			(xy 81.28 86.36) (xy 90.17 86.36)
 		)
 		(stroke
@@ -1207,6 +1249,16 @@
 			(type default)
 		)
 		(uuid "cf08f218-5a58-4b4e-b103-dfae199dfc57")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc35d92-4b1e-42bf-a60d-8c608e6e30a9")
 	)
 	(wire
 		(pts
@@ -1496,6 +1548,99 @@
 			(project "audio"
 				(path "/2ec365ba-e228-4d72-8dce-07120289074f"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664211e2-ea75-4973-a2c2-a61983d5874a")
+		(property "Reference" "D3"
+			(at 154.94 75.2474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 154.94 77.7874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d12130b-c053-4752-9077-223d35ff30cf")
+		)
+		(pin "1"
+			(uuid "3367f0f2-d8a9-4f61-98be-84a9e3b402f3")
+		)
+		(instances
+			(project "audio"
+				(path "/2ec365ba-e228-4d72-8dce-07120289074f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
